@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papatinhos | Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="#">
+        <img src="image/PAPATINHOS Logo .png" alt="Logotipo">
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">contato</a>
+          </li>
+          <li>
+            <a href="#produtos">produtos</a>
+          </li>
+          <li>
+            <a href="#">login</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article id="sobre">
+      <div class="sobre-loja">
+        <img src="image/loja.png" alt="Foto da loja">
+      </div>
+      <div class="sobre-loja-conteudo">
+        <h2>sobre a loja<span class="dot">.</span></h2>
+        <p>A loja de sapatos Papatinhos é conhecida por oferecer uma ampla variedade de calçados de qualidade para diferentes públicos e ocasiões. Ela se destaca pelo seu atendimento ao cliente, design inovador e materiais duráveis. Além disso, a Papatinhos busca sempre acompanhar as últimas tendências da moda, garantindo que seus clientes tenham acesso aos modelos mais modernos e confortáveis. A loja também costuma ter uma boa relação custo-benefício, o que a torna uma escolha popular entre os consumidores que buscam estilo e conforto a preços acessíveis.</p>
+      </div>
+    </article>
+    <article id="produtos">
+      <h2>nosso tênis<span class="dot2">.</span></h2>
+      <div class="tenis">
+        <div class="tenis-item">
+          <img src="image/papatinho 1.jpeg" alt="tenis 1">
+          <h3>Moccassim de Couro</h3>
+         
+          <button type="submit">Comprar</button>
+        </div>
+        <div class="tenis-item">
+          <img src="image/papatinho 2.jpeg" alt="tenis 2">
+          <h3>Sapato Social</h3>
+         
+          <button type="submit">Comprar</button>
+        </div>
+        <div class="tenis-item">
+          <img src="image/papatinho 3.jpeg" alt="tenis 3">
+          <h3>Mocassim Tratorado</h3>
+          
+          <button type="submit">Comprar</button>
+        </div>
+        <div class="tenis-item">
+          <img src="image/papatinho 4.jpeg" alt="tenis 4">
+          <h3>Socisport</h3>
+    
+          <button type="submit">Comprar</button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>Feito por Pedro Felicio - 2024.</p>
+  </footer>
+</body>
+
+</html>

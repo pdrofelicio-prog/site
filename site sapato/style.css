@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+header {
+  background-color: #17842e;
+}
+
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 12px;
+}
+
+nav ul li a {
+  font-family: "Krona One", sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  color: #17842e;
+  border-radius: 4px;
+  font-size: 0.854rem;
+  transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: #682a00;
+}
+
+#sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+h2 {
+  font-weight: bold;
+  color: #682a00;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  color: #100123;
+  line-height: 24px;
+}
+
+
+.sobre-loja img {
+  max-width: 100%;
+  display: block;
+}
+
+.sobre-loja-conteudo {
+  margin-right: 60px;
+}
+
+#produtos {
+  margin-bottom: 60px;
+}
+
+#produtos .tenis {
+  display: flex;
+}
+
+#produtos .tenis .tenis-item {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  max-width: 100%;
+  padding: 12px;
+}
+
+#produtos h3 {
+  color: #682a00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tenis-item img {
+  max-width: 100%;
+}
+
+#produtos p {
+  color: #100123;
+  text-align: center;
+}
+
+#produtos button {
+  color: #17842e;
+  background-color: #fff;
+  border: 2px solid #17842e;
+  padding: 12px 50px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#produtos button:hover {
+  color: #682a00;
+}
+
+footer {
+  background-color: #17842e;
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #sobre {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #produtos .tenis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 32px;
+    row-gap: 45px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #produtos .tenis {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+  #produtos button {
+    padding: 8px 16px;
+  }
+  header > .container {
+    flex-wrap: wrap;
+  }
+  nav {
+    margin-top: 8px;
+  }
+  nav ul li {
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+  #sobre {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  #produtos button {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.85rem;
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
